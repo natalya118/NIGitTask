@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+  
+<head>
+    <meta charset="utf-8">
+    <META NAME ="title" CONTENT="Arduino shop"></META>
+    <META NAME="description" CONTENT="arduino online shop"></META>
+    <title>Arduino Shop</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="css/for_slider/nouislider.min.css" rel="stylesheet">
+    
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+
+
+    
+
+</head>
+
+
+<body>
+    <!-- Genuino Zero is clickable to open the detailed page -->
+    
+    
+    <!-- I've added a price slider for task 5. It uses pure js without jQuery -->
+    
+    
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">ArduinoStore</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-usd"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> <span class="badge" id="shopping-cart-badge">0</span></a></li>
+    </ul>
+  </div>
+</nav>
+    
+<br>
+    <br>
+    <br>
+<div class="main-container  container-fluid">
+    <div class="row order-page-panel">
+        <div class="left-panel">
+            <div class="contact-form">
+                <div class="form-description">
+                    About you
+                </div>
+                <div class="row">
+                    <div class="col-md-9">
+                        <form class="form-horizontal">
+                            <div class="form-group name-group">
+                                <label class="col-sm-2 control-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" id="inputName" placeholder="Name">
+                                </div>
+                            <span class="name-help-block" style="display:none">
+                                Name doesn't contains numbers
+                            </span>
+                            </div>
+                            <div class="form-group phone-group">
+                                <label class="col-sm-2 control-label">Phone number</label>
+                                <div class="col-sm-10">
+                                    <input  class="form-control" type="text" id="inputPhone" placeholder="+380112233444">
+                                </div>
+                            <span class="phone-help-block" style="display:none">
+                                Input the correct number
+                            </span>
+                            </div>
+                            <div class="form-group address-group">
+                                <label class="col-sm-2 control-label">Adress</label>
+                                <div class="col-sm-10">
+                                    <input class="form-control" type="text" id="inputAdress" placeholder="Kyiv, Illins'ka 8">
+                                </div>
+                            <span class="address-help-block" style="display:none">
+                                Input the correct adreess
+                            </span>
+                            </div>
+                        </form>
+                        
+                        <button class="btn-order">Order</button>
+                    </div>
+                    <div class="col-md-3 order-summary">
+                        <div class=" bs-callout bs-callout-warning">
+                            <h4>Total price:</h4>
+                            <p id="total-price">
+                            
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <footer class="container-fluid footer-custom ">
+        <div class="footer-content ">
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Sell with ArduinoStore</a></p>
+            
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Buy with ArduinoStore</a></p>
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">About us</a></p>
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Privacy Legacy</a></p>
+            
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Terms&Conditions</a></p>
+            
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Community</a></p>
+            </div>
+        </div>
+        </footer>
+    
+
+    
+    <script src="js/main.js"></script>
+</body>

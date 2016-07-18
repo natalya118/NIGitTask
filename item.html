@@ -1,0 +1,246 @@
+<head>
+    <meta charset="utf-8">
+    <title>Arduino Shop</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    
+    
+
+</head>
+
+<body>
+<nav class="navbar navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">ArduinoStore</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-usd"></span></a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-star"></span></a></li>
+        <li><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span><span id="shopping-cart-badge" class="badge">0</span></a></li>
+        
+    </ul>
+  </div>
+</nav>
+    
+       <nav>
+        <div class="container-fluid lower-menu">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Arduino
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Arduino Uno</a></li>
+                        <li><a href="#">Arduino Nano</a></li>
+                        <li><a href="#">Arduino Micro</a></li>
+                        <li><a href="#">Arduino Zero</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Genuino
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Genuino Uno</a></li>
+                        <li><a href="#">Genuino Mega</a></li>
+                        <li><a href="#">Genuino Zero</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Components
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Actuators</a></li>
+                        <li><a href="#">Connectors</a></li>
+                        <li><a href="#">LCD & Matrix</a></li>
+                        <li><a href="#">Passive & Active</a></li>
+                        <li><a href="#">Sensors</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        Books & Manuals
+                        <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Web resources</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class ="container">
+        <div class="col-sm-6">
+            <div class="item-body">
+                    
+            
+
+    
+     <div class="container-fluid hero">
+         <img class="main-image" id="main-image" src="https://store.arduino.cc/bmz_cache/2/29876275dc7dcdcfd01caa5dc48442d7.image.446x354.jpg"  >
+        <!-- Carousel 
+        <div id="hero-carousel" class="carousel slide" data-ride="carousel">
+         
+            <ol class="carousel-indicators row">
+                <li data-target="#hero-carousel" data-slide-to="0" class="col-sm-4 message-1 active">
+                    <div class="caption">Photo 1</div>
+                </li>
+                <li data-target="#hero-carousel" data-slide-to="1" class="col-sm-4 message-2">
+                    <div class="caption">Photo 2</div>
+                </li>
+                <li data-target="#hero-carousel" data-slide-to="2" class="col-sm-4 message-3">
+                    <div class="caption">Set</div>
+                </li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="carousel-card" style='background-image: url("https://store.arduino.cc/bmz_cache/2/29876275dc7dcdcfd01caa5dc48442d7.image.446x354.jpg");
+                                                      "width:100%" background-size: cover;'></div>
+                    
+                </div>
+                <div class="item">
+                    <div class="carousel-card" style='background-image: url("https://store.arduino.cc/bmz_cache/3/313cef0ec13f5914f8bc947fc196c3f3.image.538x354.jpg"); "width:100%" '>
+                    </div>
+                   
+                </div>
+                <div class="item">
+                    <div class="carousel-card" style='background-image: url("https://store.arduino.cc/bmz_cache/4/4781bf9734157511eb40f2edcb3dc38a.image.538x354.jpg"); 
+                    "width:100%" '>
+                    </div>
+                    
+                </div>
+            </div>
+        
+        
+    </div>
+   End Carousel -->
+<div class="row">
+    
+    <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail ">
+      <img src="https://store.arduino.cc/bmz_cache/2/29876275dc7dcdcfd01caa5dc48442d7.image.446x354.jpg" id="first-preview" class="image-preview">
+    </a>
+  </div>
+    
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://store.arduino.cc/bmz_cache/3/313cef0ec13f5914f8bc947fc196c3f3.image.538x354.jpg" id="second-preview"  class="image-preview">
+    </a>
+  </div>
+
+         
+  <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="https://store.arduino.cc/bmz_cache/4/4781bf9734157511eb40f2edcb3dc38a.image.538x354.jpg" id="third-preview"  class="image-preview">
+    </a>
+
+</div>
+    
+    </div>
+	<br />
+	<br />
+	<hr />
+	<br />
+
+    </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <h2 class="item-title">Genuino Uno</h2>
+            
+
+
+            <div class="details">
+                            
+                <button id ="details-toggle">Details</button>
+                <p id="details-text">The Genuino UNO R3 is a microcontroller board based on the ATmega328. It has 14 digital input/output pins (of which 6 can be used as PWM outputs), 6 analog inputs, a 16 MHz crystal oscillator, a USB connection, a power jack, an ICSP header, and a reset button. It contains everything needed to support the microcontroller; simply connect it to a computer with a USB cable (not included) or power it with a AC-to-DC adapter or battery to get started. The UNO differs from all preceding boards because it does not use the FTDI USB-to-serial driver chip.</p>
+            </div>
+            <br>
+            
+            			<section>
+				<form class="ac-custom ac-radio ac-fill" autocomplete="off">
+					<ul>
+						<li><input id="r1" name="r1" type="radio"><label for="r1">Only Genuino</label></li>
+						<li><input id="r2" name="r1" type="radio"><label for="r2">With tutorial</label></li>
+					</ul>
+				</form>
+			</section>
+            <h4><b >Price: </b> <span id="price">42.90</span></h4>
+                <b> Quantity:</b>
+            <select id="Option" onclick="changeQuantity()" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            
+            </select>
+
+        <button  id="add-to-cart-button" class="btn btn-primary" type="button">Add to cart</button>
+        
+
+
+		
+            
+            
+            
+        </div>
+        
+        <div class="col-sm-2">
+        <div class="recomendations">
+        <h4>You may also like: </h4>
+            
+            <div class="rec-item">
+                
+                <img src="https://store.arduino.cc/bmz_cache/4/4d135c0b43db6eb3539816587f32b373.image.446x354.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <h5>10 BC547 transistor</h5>
+            </div>
+            
+            <div class="rec-item">
+                
+                <img src="https://www.arduino.cc/en/uploads/Main/ABX0003_iso_both.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <h5>Arduino Zero</h5>
+            </div>
+            </div>
+        </div>
+    </div>
+<footer class="container-fluid footer-custom ">
+        <div class="footer-content ">
+             <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Sell with ArduinoStore</a></p>
+            
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Buy with ArduinoStore</a></p>
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">About us</a></p>
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Privacy Legacy</a></p>
+            
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Terms&Conditions</a></p>
+            
+            </div>
+            <div class="col-sm-2 sidenav footer-block">
+                <p><a class="link-footer" href="#">Community</a></p>
+            </div>
+        </div>
+        </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
