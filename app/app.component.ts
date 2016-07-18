@@ -20,7 +20,7 @@ import { HeroService }        from './hero.service';
         
         </div>
   `,
-  styleUrls: ['app/app.component.css'],
+  styleUrls: ['app/app.css'],
   directives: [ROUTER_DIRECTIVES],
   providers: [
     HeroService,
