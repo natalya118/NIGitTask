@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-  
-
-
-
-
-
-<!-- tasks aren't fully completed :( it will be fixed until the next deadline -->
-<head>
-    <meta charset="utf-8">
-    <META NAME ="title" CONTENT="Arduino shop"></META>
-    <META NAME="description" CONTENT="arduino online shop"></META>
-    <title>Arduino Shop</title>
-    
+<html>
+  <head>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <title>Arduino Store</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link href="css/for_slider/nouislider.min.css" rel="stylesheet">
-    
-    
-    
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="sample.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    
+    <!-- Polyfill(s) for older browsers -->
+    <script src="https://npmcdn.com/core-js/client/shim.min.js"></script>
 
+    <script src="https://npmcdn.com/zone.js@0.6.12?main=browser"></script>
+    <script src="https://npmcdn.com/reflect-metadata@0.1.3"></script>
+    <script src="https://npmcdn.com/systemjs@0.19.27/dist/system.src.js"></script>
 
-    
+    <script src="systemjs.config.js"></script>
+    <script src="app/details.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
 
-</head>
-
-
-<body>
-    <!-- Genuino Zero is clickable to open the detailed page -->
-    
-    
-    <!-- I've added a price slider for task 5. It uses pure js without jQuery -->
-    
-    
+  <body>
+       
 <nav class="navbar navbar-custom">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -103,167 +92,12 @@
         </div>
     </nav>
 
-    
-    
-    <div class ="container">
-        <div class="col-sm-9">
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://www.arduino.cc/en/uploads/Main/A000066_iso_both.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div >Arduino Uno</div>
-                
-                
-                <h4 class="price">€20.00 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://www.arduino.cc/en/uploads/Main/ABX0003_iso_both.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div >Arduino Zero</div>
-                <h4 class="price">€42.90 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://www.arduino.cc/en/uploads/Main/A000053_iso_both1.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div >Arduino Micro</div>
-                <h4 class="price">€18.00 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://store.arduino.cc/bmz_cache/5/5034b9bee911dab9564610a6f8e5102d.image.538x354.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div ><a href="item.html">Genuino Zero</a></div>
-                <h4 class="price">€42.90 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://store.arduino.cc/bmz_cache/c/c5475309e64bdfaee446ae20cfc850dd.image.446x354.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div >EarthMake - ArLCD</div>
-                <h4 class="price">€72.00 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://store.arduino.cc/bmz_cache/6/64a3a88291c5a6a54cb2dbb7a23b8a66.image.447x354.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div >Ultra Sonic range measurement module</div>
-                <h4 class="price">€12.00 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://store.arduino.cc/bmz_cache/4/4d135c0b43db6eb3539816587f32b373.image.446x354.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div >10 BC547 transistor</div>
-                <h4 class="price">€0.90 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://store.arduino.cc/bmz_cache/8/86b6e86cf363265fec6a805199dccb65.image.447x354.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div>Make: Electronics 2nd Ed.</div>
-                <h4 class="price">€31.17 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-            
-            
-            
-            
-            
-            <div class="col-sm-4 item-card">
-                <div class="panel-body">
-                    <img src="https://store.arduino.cc/bmz_cache/e/ee39027a049c406410f44e7920aa13ff.image.447x354.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
-                <div>Sew Electric</div>
-                <h4 class="price">€31.95 + VAT</h4>
-                <div class="short-name"></div>
-            </div>
-            
-            
-            
-        </div>
+    <my-app>Loading...</my-app>
         
         
-        <div class="col-sm-3">
-            <div class="right-menu">
-                <a class="link-cat" href="#"> 
-                    <b> > Arduino </b></a>
-                <br>
-                <a class="link-cat" href="#"> 
-                    <b> > Genuino </b></a> 
-                <br>
-                <a class="link-cat" href="#"> 
-                    <b> > Components </b></a>
-                <br>
-                
-                <a class="link-cat" href="#"> 
-                    <b> > Books & Manuals </b></a>
-                <br>
-                 
-                <hr>
-                
-                <p> Price: </p>
-                <div class="example">
-			<div id="connect"></div>
-                </div>
+        
+        
 
-                <hr>
-                <p>Shop location to: </p>
-                <form action="">
-                    <label class="btn btn-sm btn-loc">
-                    <input type="radio" name="shippingto" value="Ukraine"> Ukraine<br>
-                    </label>
-                    
-                    <label class="btn btn-sm btn-loc">
-                    <input type="radio" name="shippingto" value="Worldwide" checked="true">WorldWide<br>
-                    </label>
-                </form>
-                
-                
-                
-                
-                <hr>
-                <p>Shipping to: </p>
-                <select class="form-control btn-loc" id="countryChoise" >
-                    <option value="France">France</option>
-                    <option value="United Kingdom">United Kingdom</option>
-                    <option value="Ukraine">Ukraine</option>
-                    <option value="USA">USA</option>
-                </select>
-                
-            </div>
-            <br>
-        </div>
-    </div>
 
     <footer class="container-fluid footer-custom ">
         <div class="footer-content ">
@@ -289,10 +123,14 @@
                 <p><a class="link-footer" href="#">Community</a></p>
             </div>
         </div>
-    </footer>
+        </footer>
+      
+  </body>
+</html>
 
-    <script src="js/for_slider/nouislider.min.js"></script>
-    
-    
-    <script src="js/main.js"></script>
-</body>
+
+<!-- 
+Copyright 2016 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->
